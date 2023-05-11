@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twnty One Pilots</title>
+        <style>
+        body {
+           background-image: linear-gradient(to bottom, #f0d8f5, #470678);
+        }
+        section {
+            display: flex;
+            width: 600px;
+            height: 430px;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        
+        section img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+        }
+
+        section img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+
+        .box {
+      width: 315px;
+      height: 320px;
+      background-color:  #05fbff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      margin-left: 38%;
+    }
+
+    .box p {
+      margin: 0;
+    }
+
+    .box::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #fb0000;
+      animation: slide 2s 1;
+    }
+
+    @keyframes slide {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+
+    </style>
+</head>
+<body>
+    
+    <section>
+            <img src="https://media.timeout.com/images/103327219/image.jpg" alt="Foto1">
+            <img src="https://static.displate.com/280x392/displate/2021-05-25/9f079636d70786cc11135bfa7898863e_33db5e6ea2d13034f2bd475dd111719c.jpg" alt="Foto2">
+            <img src="https://static.wixstatic.com/media/1f0717_dfd5ea7e0b6c428e9ec2ea06bf094c8d~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85/1f0717_dfd5ea7e0b6c428e9ec2ea06bf094c8d~mv2.jpg" alt="Foto3">
+           
+    </section>
+
+    <div class="box">
+        <p>Twenty One Pilots (estilizado en minúsculas o como twenty øne piløts) es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes se fueron en 2011. Desde su partida, la formación ha consistido en Tyler Joseph y el baterista Josh Dun. El dúo es principalmente conocido por los sencillos "Stressed Out", "Ride" y "Heathens". El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.</p>
+    </div>
+    
+</body>
+</html>
