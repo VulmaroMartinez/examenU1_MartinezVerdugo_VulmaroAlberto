@@ -1,0 +1,188 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-left: 38%;
+  margin-right: 40%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:first-of-type {
+  left: 25%;
+}
+
+.container .btn:last-of-type {
+  left: 75%;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.box {
+  width: 360px;
+  height: 190px;
+  background-color:  #ff0000;
+  border: 1px solid #f7ff1b;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 38%;
+}
+
+.box p {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #f7ff1b;
+  animation: slide 2s 1;
+}
+
+@keyframes slide {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.box .btntxt {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box .btntxt:hover {
+  background-color: black;
+  color: white;
+}
+
+.btncolor {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btncolor:hover {
+  background-color: black;
+  color: white;
+}
+
+#mensaje {
+  display: none;
+}
+
+.box2 {
+  top: 30%;
+  width: 200px;
+  height: 100px;
+  background-color:  #cdcdcd;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 7%;
+}
+
+.box2 h2 {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.box2 .btnhidden {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box2 .btnhidden:hover {
+  background-color: black;
+  color: white;
+}
+
+.btntrigger {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btntrigger:hover {
+  background-color: black;
+  color: white;
+}
