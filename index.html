@@ -9,7 +9,7 @@
 
 </head>
 <body>
-
+    <h1>TWENTY ONE PILOTS</h1>
     <button class = "btncolor" id="colorButton" onclick="cambiarColor()">Cambiar color</button>
 
     <div class ="box2">
@@ -18,9 +18,9 @@
     </div>
     
     <div class="container">
-    <img id = "miImagen" src="https://www.soundpark.news/__export/1633385848721/sites/debate/img/2021/10/04/tour_twenty_one_pilots_x1x.jpg_423682103.jpg" alt="TOP" style ="width:100%">
-    <button class="btn" onclick="cambiarImagen()">Cambiar </button>
-    <button class="btn" onclick="restablecerImagen()">Regresar </button>
+    <img id = "mainImage" src="https://www.soundpark.news/__export/1633385848721/sites/debate/img/2021/10/04/tour_twenty_one_pilots_x1x.jpg_423682103.jpg" alt="TOP" style ="width:100%">
+    <button class="btn" onclick="nextImage(-1)">Anterior</button>
+    <button class="btn" onclick="nextImage(1)">Siguiente </button>
     </div>
 
 
@@ -30,7 +30,7 @@
       </div>
 
     <div>
-      <button class = "btntrigger" onclick="generarTexto()">Generar</button>
+      <button class = "btntrigger"  onclick="generarTexto()">Generar</button>
       <h1 id="texto2"></h1>
     </div>
     
